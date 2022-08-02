@@ -86,7 +86,7 @@ brand = """\033[92m
 ──────────██──█──█──█──██
 ──────────██──█──█──█──██
 ───────────█▄▄█▄▄█▄▄█▄▄█
-\033[91m     OTW NIH TJUY DARI AXEL
+\033[91m     OTW NIH TJUY DARI VINZ
 """
 
 os.system("clear")
@@ -99,7 +99,7 @@ def attack(ip, port, time, threads):
     if port is not None:
         port = max(1, min(65535, port))
     print(brand)
-    print("\033[92m ★★★★ DARI AXEL EUYY ★★★★")
+    print("\033[92m ★★★★ DARI VINZ EUYY ★★★★")
     fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
         ip=ip,
         port='port {port}'.format(port=port) if port else 'random ports'
